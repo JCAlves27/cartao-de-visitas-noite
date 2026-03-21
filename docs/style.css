@@ -1,0 +1,43 @@
+/*seletor de tag*/
+p {
+    color: purple;
+}
+
+/*seletor de classe*/
+.wolves {
+    font-family: Arial;
+    font-size: 16pt;
+}
+
+/*seletor de id*/
+#bob-esponja {
+    background-color: purple;
+    color: white;
+}
+/*seletor de tag*/
+body {
+    background-color: beige;
+}
+
+table {
+    font-family: Arial;
+    text-align: right;
+}
+
+th {
+    background-color: purple;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+a:hover {
+    background-color: purple;
+    color: white;
+}
